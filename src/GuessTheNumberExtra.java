@@ -46,7 +46,16 @@ public class GuessTheNumberExtra {
                     System.out.println("Congratulations! You guessed the number in " + attempts + " attempts.");
                 }
             } while (userGuess != numberToGuess);
-            score++;
+            
+            if (attempts <= 5) {
+                score += 10;
+            } else if (attempts <= 10) {
+                score += 5;
+            } else {
+                score += 1;
+            }
+            
+            attempts = 0;
             
             //Get user input for play again
             System.out.println("Your current score is: " + score);
