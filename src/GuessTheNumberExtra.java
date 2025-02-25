@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//updated code from GuessTheNumber
 public class GuessTheNumberExtra {
     public static void main(String[] args) {
         //Declare Variable

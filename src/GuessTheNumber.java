@@ -37,3 +37,5 @@ public class GuessTheNumber {
         scanner.close();
     }
 }
+
+//retrived from Ir. Kasmir Syariati, S.Kom., M.T.
